@@ -120,7 +120,7 @@ npm install
 npm run dev
 App runs on http://localhost:3000
 
----
+
 📁 Project Structure
 
 ```
@@ -149,7 +149,7 @@ smart-traffic-monitor/
 └── README.md # Project documentation
 
 ```
----
+
 
 ✅ Features Summary
 Live location traffic monitoring
