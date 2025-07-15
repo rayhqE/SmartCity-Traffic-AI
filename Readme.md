@@ -120,28 +120,36 @@ npm install
 npm run dev
 App runs on http://localhost:3000
 
-## 📁 Project Structure
+---
+📁 Project Structure
 
 ```
 
 smart-traffic-monitor/
-├── app/
-│ ├── components/
-│ │ ├── traffic-canvas.tsx
-│ │ ├── ai-predictor.tsx
-│ │ ├── route-optimizer.tsx
-│ │ ├── network-status.tsx
-│ │ ├── alerts.tsx
-│ │ ├── voice-controls.tsx
-│ │ └── social-reports.tsx
-│ ├── page.tsx
-│ ├── layout.tsx
-│ └── globals.css
-├── lib/utils.ts
-├── public/
-└── tailwind.config.ts
+├── app/ # Next.js App Router structure
+│ ├── components/ # Reusable UI and feature components
+│ │ ├── traffic-canvas.tsx # Canvas API for traffic heatmap
+│ │ ├── ai-predictor.tsx # AI congestion prediction component
+│ │ ├── route-optimizer.tsx # Smart route suggestions
+│ │ ├── network-status.tsx # Network Information API handling
+│ │ ├── alerts.tsx # Intelligent alert notifications
+│ │ ├── voice-controls.tsx # Speech recognition commands
+│ │ └── social-reports.tsx # Community traffic reporting
+│ ├── layout.tsx # Root layout with header/footer
+│ ├── page.tsx # Main landing page
+│ └── globals.css # Global Tailwind styles
+├── lib/ # Helper functions
+│ └── utils.ts # Utilities (distance calc, formatting)
+├── public/ # Static assets
+│ └── icons/ # Custom icons or images
+├── node_modules/ # Installed npm packages
+├── tailwind.config.ts # Tailwind CSS configuration
+├── next.config.mjs # Next.js project config
+├── tsconfig.json # TypeScript configuration
+└── README.md # Project documentation
 
 ```
+---
 
 ✅ Features Summary
 Live location traffic monitoring
@@ -176,3 +184,5 @@ Real-time alerts and notifications
 📄 License
 Licensed under the MIT License.
 ```
+
+---
